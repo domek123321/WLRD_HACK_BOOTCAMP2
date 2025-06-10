@@ -41,3 +41,4 @@ async fn translate(text: String) -> String {
    ic_cdk::println!("{:?}", body);
     format!("Hello, {}!", text)
 }
+
